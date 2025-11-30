@@ -1,132 +1,115 @@
-🚀 Connecting-U
+# 🚀 Connecting-U
 
-Connecting-U adalah sebuah platform berbasis website yang dirancang untuk memberikan ruang kolaborasi inklusif bagi mahasiswa. Aplikasi ini bertujuan untuk meningkatkan kapabilitas mahasiswa dan institusi melalui kompetisi atau riset bersama dengan memudahkan proses pencarian partner tim lintas jurusan.
+**Connecting-U** adalah platform berbasis web yang dirancang untuk memberikan ruang kolaborasi inklusif bagi mahasiswa. Aplikasi ini membantu meningkatkan kapabilitas mahasiswa dan institusi melalui kompetisi atau riset bersama dengan memudahkan proses pencarian partner tim lintas jurusan.
 
-Final Project Mata Kuliah Framework Pemrograman Web > Program Studi Informatika - Universitas Singaperbangsa Karawang (UNSIKA)
+_Final Project Mata Kuliah Framework Pemrograman Web_  
+**Program Studi Informatika – Universitas Singaperbangsa Karawang (UNSIKA)**
 
-👥 Anggota Kelompok
+---
 
-Project ini disusun oleh Mahasiswa Kelas 5A - Informatika:
+## 👥 Anggota Kelompok
 
-Nama
+Project ini disusun oleh Mahasiswa Kelas **5A – Informatika**:
 
-NPM
+| Nama                     | NPM           | Role                |
+|-------------------------|---------------|----------------------|
+| Mohammad Ichsan Nurdin  | 2310631170097 | Fullstack Developer |
+| Iqbal Umar Kadafi       | 2310631170091 | Fullstack Developer |
 
-Role
+---
 
-Mohammad Ichsan Nurdin
+## 📖 Tentang Project
 
-2310631170097
+Di lingkungan kampus, mahasiswa sering memiliki ide brilian untuk kompetisi seperti **PKM**, **Gemastik**, atau **Business Plan**, namun kesulitan menemukan anggota tim dengan keahlian yang tepat. Cara konvensional seperti broadcast di grup WhatsApp kurang efektif, tidak terstruktur, dan sulit dipantau.
 
-Fullstack Developer
+**Connecting-U** hadir sebagai solusi untuk menjembatani **Idea Owner (Ketua Tim)** dengan **Talent (Calon Anggota)**.
 
-Iqbal Umar Kadafi
+Platform ini memungkinkan pengguna untuk:
 
-2310631170091
+- Mempublikasikan ide proyek/lomba  
+- Mencari tim berdasarkan minat dan skill  
+- Mengelola proses rekrutmen  
+- Berkolaborasi dalam satu platform terintegrasi  
 
-Fullstack Developer
+---
 
-📖 Tentang Project
+## 🛠️ Tech Stack
 
-Di lingkungan kampus, seringkali mahasiswa memiliki ide brilian untuk kompetisi (seperti PKM, Gemastik, atau Business Plan) namun kesulitan menemukan anggota tim dengan skill spesifik yang dibutuhkan. Cara konvensional seperti menyebar pesan di grup WhatsApp seringkali tidak efektif dan tidak terstruktur.
+Aplikasi ini dibangun menggunakan teknologi modern:
 
-Connecting-U hadir sebagai solusi untuk menjembatani Idea Owner (Ketua Tim) dengan Talent (Anggota Tim). Aplikasi ini memungkinkan mahasiswa untuk:
+- **Backend Framework**: Laravel 10 (PHP)
+- **Frontend Styling**: Tailwind CSS  
+- **Templating Engine**: Blade  
+- **Database**: MySQL  
+- **Local Server Environment**: Laragon  
+- **Version Control**: Git & GitHub  
 
-Mempublikasikan ide proyek/lomba.
+---
 
-Mencari tim berdasarkan minat dan keahlian.
+## ✨ Fitur Utama
 
-Mengelola proses rekrutmen hingga pengerjaan proyek dalam satu platform terintegrasi.
+### 1. Otentikasi & Profil Pengguna
+- 🔐 **Login & Register** (terenkripsi)
+- 👤 **Profil Profesional**: Bio, keahlian, jurusan, avatar
+- 🗂️ **Digital Portfolio**: Menampilkan 3 proyek terbaik (pin project)
 
-🛠️ Tech Stack
+### 2. Pencarian & Dashboard
+- 📊 **Dashboard Interaktif** berisi daftar Open Recruitment
+- 🔍 **Smart Filtering** berdasarkan kategori atau skill
+- 🟢 **Status Indikator**: Open, On-Going, Completed, Closed
 
-Aplikasi ini dibangun menggunakan teknologi modern untuk memastikan performa yang cepat dan tampilan yang responsif:
+### 3. Manajemen Tim (Leader)
+- 📝 Membuat tim/proyek (judul, deskripsi, deadline, kriteria anggota)
+- 👀 Melihat dan menyaring pelamar
+- ✔️ Terima / ❌ Tolak anggota
+- 🔄 Update status proyek
+- 📎 Upload dokumen (PDF) untuk tim
 
-Backend Framework: Laravel 10 (PHP)
+### 4. Kolaborasi (Member)
+- ✉️ **Apply Project** dengan pesan motivasi
+- 📌 **Riwayat Lamaran**: Pending, Diterima, Ditolak
+- 💬 **Ruang Diskusi (Chat)** internal tim
 
-Frontend Styling: Tailwind CSS
+---
 
-Templating Engine: Blade
+## ⚙️ Cara Instalasi (Localhost)
 
-Database: MySQL
+Ikuti langkah berikut untuk menjalankan project di komputer lokal:
 
-Local Server Environment: Laragon
-
-Version Control: Git & GitHub
-
-✨ Fitur Utama
-
-Aplikasi Connecting-U memiliki fitur lengkap mulai dari rekrutmen hingga manajemen proyek:
-
-1. Otentikasi & Profil Pengguna
-
-✅ Login & Register: Sistem keamanan terenkripsi.
-
-✅ Profil Profesional: Menampilkan Bio, Keahlian (Skills), Jurusan, dan Foto Profil (Avatar).
-
-✅ Digital Portfolio: Pengguna dapat memilih dan mem-pin 3 proyek terbaik (baik yang dibuat sendiri atau diikuti) untuk ditampilkan di profil publik.
-
-2. Pencarian & Dashboard
-
-✅ Dashboard Interaktif: Menampilkan daftar Open Recruitment terbaru.
-
-✅ Smart Filtering: Cari tim berdasarkan Kategori (PKM, Riset, IT, Bisnis) atau kata kunci skill.
-
-✅ Status Indikator: Pembeda visual untuk status proyek (Open, On-Going, Completed, Closed).
-
-3. Manajemen Tim (Untuk Leader)
-
-✅ Buat Tim/Proyek: Input judul, deskripsi, deadline, dan kriteria anggota.
-
-✅ Kelola Pelamar: Melihat profil pelamar, membaca pesan motivasi, serta tombol Terima/Tolak anggota.
-
-✅ Update Progress: Mengubah status proyek (misal: dari Open ke On-Going saat tim penuh).
-
-✅ Upload Dokumen: Fitur untuk mengunggah proposal atau hasil proyek (PDF) yang bisa diakses anggota.
-
-4. Kolaborasi (Untuk Member)
-
-✅ Apply Project: Mengajukan diri bergabung ke tim dengan pesan motivasi (validasi otomatis jika lewat deadline).
-
-✅ Riwayat Lamaran: Memantau status lamaran (Pending, Diterima, Ditolak).
-
-✅ Ruang Diskusi (Chat): Fitur chatting internal khusus untuk anggota tim yang sudah diterima dan ketua tim.
-
-⚙️ Cara Instalasi (Localhost)
-
-Jika ingin menjalankan project ini di komputer lokal:
-
-Clone Repository
-
-git clone [https://github.com/username-github-kamu/connecting-u.git](https://github.com/username-github-kamu/connecting-u.git)
+### 1. Clone Repository
+```bash
+git clone https://github.com/username-github-kamu/connecting-u.git
 cd connecting-u
-
-
-Install Dependencies
-
+```
+### 2. Install Dependencies
+```bash
 composer install
 npm install
-
-
-Setup Environment
-
-Copy file .env.example menjadi .env.
-
-Buat database baru di MySQL bernama connectingu.
-
-Konfigurasi DB di file .env.
-
-Generate Key & Migrate
-
+```
+### 3. Setup Environment
+```bash
+cp .env.example .env
+```
+Kemudian sesuaikan pengaturan database di file .env:
+```bash
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=connectingu
+DB_USERNAME=root
+DB_PASSWORD=
+```
+### 4. Generate Key & Migrate
+```bash
 php artisan key:generate
 php artisan migrate
 php artisan storage:link
-
-
-Run Application
-
+```
+### 5. Run Application
+```bash
 npm run dev
 php artisan serve
-
-
-Dibuat dengan ❤️ oleh Tim Connecting-U Unsika.
+```
+---
+## Akses aplikasi di:
+➡️ http://127.0.0.1:8000
