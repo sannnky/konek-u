@@ -1,66 +1,132 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+🚀 Connecting-U
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Connecting-U adalah sebuah platform berbasis website yang dirancang untuk memberikan ruang kolaborasi inklusif bagi mahasiswa. Aplikasi ini bertujuan untuk meningkatkan kapabilitas mahasiswa dan institusi melalui kompetisi atau riset bersama dengan memudahkan proses pencarian partner tim lintas jurusan.
 
-## About Laravel
+Final Project Mata Kuliah Framework Pemrograman Web > Program Studi Informatika - Universitas Singaperbangsa Karawang (UNSIKA)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+👥 Anggota Kelompok
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Project ini disusun oleh Mahasiswa Kelas 5A - Informatika:
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Nama
 
-## Learning Laravel
+NPM
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Role
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Mohammad Ichsan Nurdin
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+2310631170097
 
-## Laravel Sponsors
+Fullstack Developer
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Iqbal Umar Kadafi
 
-### Premium Partners
+2310631170091
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+Fullstack Developer
 
-## Contributing
+📖 Tentang Project
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Di lingkungan kampus, seringkali mahasiswa memiliki ide brilian untuk kompetisi (seperti PKM, Gemastik, atau Business Plan) namun kesulitan menemukan anggota tim dengan skill spesifik yang dibutuhkan. Cara konvensional seperti menyebar pesan di grup WhatsApp seringkali tidak efektif dan tidak terstruktur.
 
-## Code of Conduct
+Connecting-U hadir sebagai solusi untuk menjembatani Idea Owner (Ketua Tim) dengan Talent (Anggota Tim). Aplikasi ini memungkinkan mahasiswa untuk:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Mempublikasikan ide proyek/lomba.
 
-## Security Vulnerabilities
+Mencari tim berdasarkan minat dan keahlian.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Mengelola proses rekrutmen hingga pengerjaan proyek dalam satu platform terintegrasi.
 
-## License
+🛠️ Tech Stack
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Aplikasi ini dibangun menggunakan teknologi modern untuk memastikan performa yang cepat dan tampilan yang responsif:
+
+Backend Framework: Laravel 10 (PHP)
+
+Frontend Styling: Tailwind CSS
+
+Templating Engine: Blade
+
+Database: MySQL
+
+Local Server Environment: Laragon
+
+Version Control: Git & GitHub
+
+✨ Fitur Utama
+
+Aplikasi Connecting-U memiliki fitur lengkap mulai dari rekrutmen hingga manajemen proyek:
+
+1. Otentikasi & Profil Pengguna
+
+✅ Login & Register: Sistem keamanan terenkripsi.
+
+✅ Profil Profesional: Menampilkan Bio, Keahlian (Skills), Jurusan, dan Foto Profil (Avatar).
+
+✅ Digital Portfolio: Pengguna dapat memilih dan mem-pin 3 proyek terbaik (baik yang dibuat sendiri atau diikuti) untuk ditampilkan di profil publik.
+
+2. Pencarian & Dashboard
+
+✅ Dashboard Interaktif: Menampilkan daftar Open Recruitment terbaru.
+
+✅ Smart Filtering: Cari tim berdasarkan Kategori (PKM, Riset, IT, Bisnis) atau kata kunci skill.
+
+✅ Status Indikator: Pembeda visual untuk status proyek (Open, On-Going, Completed, Closed).
+
+3. Manajemen Tim (Untuk Leader)
+
+✅ Buat Tim/Proyek: Input judul, deskripsi, deadline, dan kriteria anggota.
+
+✅ Kelola Pelamar: Melihat profil pelamar, membaca pesan motivasi, serta tombol Terima/Tolak anggota.
+
+✅ Update Progress: Mengubah status proyek (misal: dari Open ke On-Going saat tim penuh).
+
+✅ Upload Dokumen: Fitur untuk mengunggah proposal atau hasil proyek (PDF) yang bisa diakses anggota.
+
+4. Kolaborasi (Untuk Member)
+
+✅ Apply Project: Mengajukan diri bergabung ke tim dengan pesan motivasi (validasi otomatis jika lewat deadline).
+
+✅ Riwayat Lamaran: Memantau status lamaran (Pending, Diterima, Ditolak).
+
+✅ Ruang Diskusi (Chat): Fitur chatting internal khusus untuk anggota tim yang sudah diterima dan ketua tim.
+
+⚙️ Cara Instalasi (Localhost)
+
+Jika ingin menjalankan project ini di komputer lokal:
+
+Clone Repository
+
+git clone [https://github.com/username-github-kamu/connecting-u.git](https://github.com/username-github-kamu/connecting-u.git)
+cd connecting-u
+
+
+Install Dependencies
+
+composer install
+npm install
+
+
+Setup Environment
+
+Copy file .env.example menjadi .env.
+
+Buat database baru di MySQL bernama connectingu.
+
+Konfigurasi DB di file .env.
+
+Generate Key & Migrate
+
+php artisan key:generate
+php artisan migrate
+php artisan storage:link
+
+
+Run Application
+
+npm run dev
+php artisan serve
+
+
+Dibuat dengan ❤️ oleh Tim Connecting-U Unsika.
